@@ -1,11 +1,11 @@
-<mxfile host="Electron" modified="2023-05-02T18:35:24.982Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="1MvNAz7YDj4npp0trTHb" version="21.2.1" type="device">
+<mxfile host="Electron" modified="2023-05-06T11:40:19.447Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="LQbi_NRNCudEr3nfjrDp" version="21.2.8" type="device">
   <diagram name="Page-1" id="BMMvD_4nBGezMXCPUB5b">
-    <mxGraphModel dx="1363" dy="2040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="1779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="z8GUtXKnv49w3SbfMGUX-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="115.5" y="-120" width="984.5" height="550" as="geometry" />
+          <mxGeometry x="115.5" y="-120" width="984.5" height="680" as="geometry" />
         </mxCell>
         <mxCell id="z8GUtXKnv49w3SbfMGUX-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="115.5" y="-340" width="984.5" height="198" as="geometry" />
@@ -25,7 +25,7 @@
         <mxCell id="Lv1uPBIACpJVqoIBJsrw-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Lv1uPBIACpJVqoIBJsrw-25" target="Lv1uPBIACpJVqoIBJsrw-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xeK42FO3yRb1QHuqwQyx-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lv1uPBIACpJVqoIBJsrw-25" target="xeK42FO3yRb1QHuqwQyx-2">
+        <mxCell id="xeK42FO3yRb1QHuqwQyx-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Lv1uPBIACpJVqoIBJsrw-25" target="xeK42FO3yRb1QHuqwQyx-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Lv1uPBIACpJVqoIBJsrw-25" value="&lt;b&gt;Kafka Brokers&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#82b366;fillColor=#d5e8d4;shape=mxgraph.azure.storage_queue;" parent="1" vertex="1">
@@ -33,21 +33,6 @@
         </mxCell>
         <mxCell id="Lv1uPBIACpJVqoIBJsrw-26" value="&lt;b&gt;OpenTracing Log stash Kibana&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.emr_cluster;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="260.5" y="-298" width="70" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="Lv1uPBIACpJVqoIBJsrw-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Lv1uPBIACpJVqoIBJsrw-28" target="Lv1uPBIACpJVqoIBJsrw-29" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Lv1uPBIACpJVqoIBJsrw-28" value="&lt;b&gt;Elastic Service&lt;br&gt;&amp;nbsp;(Java)&lt;br&gt;&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="590" y="150" width="70" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="xeK42FO3yRb1QHuqwQyx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lv1uPBIACpJVqoIBJsrw-29" target="Lv1uPBIACpJVqoIBJsrw-30">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Lv1uPBIACpJVqoIBJsrw-29" value="&lt;b&gt;Elasticsearch&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elasticsearch_service;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="772.5" y="144.5" width="67.5" height="81" as="geometry" />
-        </mxCell>
-        <mxCell id="Lv1uPBIACpJVqoIBJsrw-30" value="&lt;b&gt;Query Service (TS)&lt;br&gt;&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="930" y="-100" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Lv1uPBIACpJVqoIBJsrw-34" value="&lt;b&gt;Prometheus &amp;amp; Grafana&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.emr_cluster;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="710.5" y="-298" width="70" height="70" as="geometry" />
@@ -66,11 +51,11 @@
             <mxPoint x="606.5" y="91.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xeK42FO3yRb1QHuqwQyx-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="z8GUtXKnv49w3SbfMGUX-5" target="Lv1uPBIACpJVqoIBJsrw-30">
+        <mxCell id="xeK42FO3yRb1QHuqwQyx-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="z8GUtXKnv49w3SbfMGUX-5" target="Lv1uPBIACpJVqoIBJsrw-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z8GUtXKnv49w3SbfMGUX-5" value="&lt;b&gt;KSQL&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="667.25" y="60" width="46.5" height="63" as="geometry" />
+          <mxGeometry x="680" y="10" width="46.5" height="63" as="geometry" />
         </mxCell>
         <mxCell id="TpHmFEYe1J1zQ5DGU_Ff-1" value="&lt;b&gt;Edge service deploy in Istio&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="115.5" y="-340" width="164.5" height="30" as="geometry" />
@@ -78,20 +63,47 @@
         <mxCell id="TpHmFEYe1J1zQ5DGU_Ff-2" value="&lt;b&gt;Portal (Ruby)&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="572.75" y="-100" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="xeK42FO3yRb1QHuqwQyx-1" value="&lt;b&gt;Data Warehouse&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.dynamo_db;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="xeK42FO3yRb1QHuqwQyx-1" value="&lt;b&gt;Data Warehouse&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.dynamo_db;fillColor=#2E73B8;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="640" y="310" width="72" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="xeK42FO3yRb1QHuqwQyx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xeK42FO3yRb1QHuqwQyx-2" target="xeK42FO3yRb1QHuqwQyx-1">
+        <mxCell id="xeK42FO3yRb1QHuqwQyx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="xeK42FO3yRb1QHuqwQyx-2" target="xeK42FO3yRb1QHuqwQyx-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xeK42FO3yRb1QHuqwQyx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xeK42FO3yRb1QHuqwQyx-2" target="xeK42FO3yRb1QHuqwQyx-5">
+        <mxCell id="xeK42FO3yRb1QHuqwQyx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xeK42FO3yRb1QHuqwQyx-2" target="xeK42FO3yRb1QHuqwQyx-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xeK42FO3yRb1QHuqwQyx-2" value="&lt;b&gt;ML Service (Python)&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="xeK42FO3yRb1QHuqwQyx-2" value="&lt;b&gt;ML Service (Python)&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="460" y="315.5" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="xeK42FO3yRb1QHuqwQyx-5" value="&lt;b&gt;ML Models&lt;br&gt;&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.athena;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="xeK42FO3yRb1QHuqwQyx-5" value="&lt;b&gt;ML Models&lt;br&gt;&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.athena;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="320" y="314.5" width="76.5" height="76.5" as="geometry" />
+        </mxCell>
+        <mxCell id="3hkW-E2J2-0KI4yOq9RH-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="820.05" y="100" width="178.37" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="Lv1uPBIACpJVqoIBJsrw-29" value="&lt;b&gt;Elasticsearch&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elasticsearch_service;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="870" y="124.5" width="67.5" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="3hkW-E2J2-0KI4yOq9RH-3" value="&lt;b&gt;Redis&lt;/b&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Cache_Redis.svg;" parent="1" vertex="1">
+          <mxGeometry x="860" y="240" width="98.46" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3hkW-E2J2-0KI4yOq9RH-4" value="&lt;b&gt;MongoDB&lt;/b&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/databases.svg;" parent="1" vertex="1">
+          <mxGeometry x="870" y="370" width="81.63" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3hkW-E2J2-0KI4yOq9RH-7" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Dynamic Data Sink&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="840.4" y="500" width="140.82" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3hkW-E2J2-0KI4yOq9RH-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Lv1uPBIACpJVqoIBJsrw-28" target="3hkW-E2J2-0KI4yOq9RH-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lv1uPBIACpJVqoIBJsrw-28" value="&lt;b&gt;Distributed Service&lt;br&gt;&amp;nbsp;(Java)&lt;br&gt;&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="590" y="150" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3hkW-E2J2-0KI4yOq9RH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Lv1uPBIACpJVqoIBJsrw-30" target="3hkW-E2J2-0KI4yOq9RH-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lv1uPBIACpJVqoIBJsrw-30" value="&lt;b&gt;Query Service (TS)&lt;br&gt;&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="874.23" y="-100" width="70" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
