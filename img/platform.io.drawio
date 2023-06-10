@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-05-06T11:40:19.447Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="LQbi_NRNCudEr3nfjrDp" version="21.2.8" type="device">
+<mxfile host="Electron" modified="2023-06-10T11:51:01.851Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="E47zMWxqKDvP3aj9IEb6" version="21.2.8" type="device">
   <diagram name="Page-1" id="BMMvD_4nBGezMXCPUB5b">
     <mxGraphModel dx="954" dy="1779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,7 +60,7 @@
         <mxCell id="TpHmFEYe1J1zQ5DGU_Ff-1" value="&lt;b&gt;Edge service deploy in Istio&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="115.5" y="-340" width="164.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TpHmFEYe1J1zQ5DGU_Ff-2" value="&lt;b&gt;Portal (Ruby)&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
+        <mxCell id="TpHmFEYe1J1zQ5DGU_Ff-2" value="&lt;b&gt;Portal (VueJS)&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="572.75" y="-100" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="xeK42FO3yRb1QHuqwQyx-1" value="&lt;b&gt;Data Warehouse&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.dynamo_db;fillColor=#2E73B8;gradientColor=none;" parent="1" vertex="1">
@@ -104,6 +104,18 @@
         </mxCell>
         <mxCell id="Lv1uPBIACpJVqoIBJsrw-30" value="&lt;b&gt;Query Service (TS)&lt;br&gt;&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="874.23" y="-100" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mBcFyTNPdO0KxNHQ-DgI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mBcFyTNPdO0KxNHQ-DgI-1" target="Lv1uPBIACpJVqoIBJsrw-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="-55" />
+              <mxPoint x="440" y="110" />
+              <mxPoint x="480" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mBcFyTNPdO0KxNHQ-DgI-1" value="&lt;b&gt;Monitor service&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-90" width="70" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
